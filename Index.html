@@ -54,52 +54,22 @@
         .communicate:hover {
             background-color: darkorange;
         }
-
-        .button-container {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            /* Adjusted left instead of right */
-            display: none;
-        }
-
-        .round-button {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            padding: 10px;
-            background-color: #4CAF50;
-            border: 2px solid white;
-            box-shadow: 0 0 5px gray;
-            cursor: pointer;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            z-index: 2;
-        }
-
-        .show {
-            display: block;
-            visibility: visible;
-        }
+        
     </style>
 </head>
 
 <body>
-    <div class="button-container">
-        <div class="round-button">🔘FUNCTIONS</div>
-        <button onclick="location.href='https://brie.fi/ng/lustrous-book-6#lustrous-book-6';" class="communicate">Communicate!</button>
-        <button onclick="location.href='https://sanket3yoprogrammer.github.io/gamingVhai/app.html';" class="communicate">Game Zone</button>
-        <button onclick="location.href='https://www.whiteboard.team/app/board/Q6MUB05hmB_qg7_GIs5E25DtI';" class="communicate">Planboard</button>
-        <button onclick="location.href='https://sanket3yoprogrammer.github.io/playmusiclistVhai/';" class="communicate">Music</button>
-        <button onclick="location.href='https://www.youtube.com/';" class="communicate">Something on youtube?</button>
-    </div>
+    
     <h1>PURPLE HAND GANG</h1>
     <p style="color: black;">This is a special website created for the members of the Purple Hand Gang🟣.</p>
     <p style="color: black;">Lord Rama 🙏 Homecoming 🌎 Guys!!🔥🔥</p>
     <img src="https://ih1.redbubble.net/image.3177790902.3053/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Description of image" width="180" height="180">
+    <button onclick="location.href='https://brie.fi/ng/lustrous-book-6#lustrous-book-6';" class="communicate">Communicate!</button>
+    <button onclick="location.href='https://sanket3yoprogrammer.github.io/gamingVhai/app.html';" class="communicate">Game Zone</button>
+    <button onclick="location.href='https://www.whiteboard.team/app/board/Q6MUB05hmB_qg7_GIs5E25DtI';" class="communicate">Planboard</button>
+    <button onclick="location.href='https://sanket3yoprogrammer.github.io/playmusiclistVhai/';" class="communicate">Music</button>
+    <button onclick="location.href='https://www.youtube.com/';" class="communicate">Something on youtube?</button>
     <img class="newYearImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3OMrLiv3P3OvbC-kSJ0Xhh3IW09fvDJjQA&usqp=CAU" alt="Happy New Year 2024">
-
     <p>
         Credits: sanket3yoprogrammer😎
         YO YO YO WASSUP GUYS MAJE KAROO🔥
@@ -108,16 +78,6 @@
     </p>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
-
-
-    <script>
-        var roundButton = document.querySelector(".round-button");
-        var buttonContainer = document.querySelector(".button-container");
-
-        roundButton.addEventListener("click", function () {
-            buttonContainer.classList.toggle("show");
-        });
-    </script>
 </body>
 
 </html>
